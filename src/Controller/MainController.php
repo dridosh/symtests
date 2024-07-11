@@ -18,7 +18,7 @@ class MainController extends AbstractController
             new Dinosaur('Big Eaty', 'Tyrannosaurus', 15, 'Paddock C'),
             new Dinosaur('Dennis', 'Dilophosaurus', 6, 'Paddock B'),
             new Dinosaur('Bumpy', 'Triceratops', 10, 'Paddock B'),
-            new Dinosaur('rex', 'Triceratops', 10, 'Paddock B'),
+            new Dinosaur('Rex', 'Tyrannosaurus', 10, 'Paddock B'),
         ];
 
         return $this->render('main/index.html.twig', [
